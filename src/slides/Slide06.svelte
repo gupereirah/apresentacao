@@ -6,9 +6,6 @@
 	<h1 class="text-5xl font-bold text-white mb-6 drop-shadow-lg">
 		🚀 A Virada para Dev
 	</h1>
-	<p class="text-xl text-white/90 leading-relaxed drop-shadow mb-8">
-		O momento decisivo da minha carreira
-	</p>
 	
 	<div class="max-w-6xl mx-auto space-y-6">
 		<!-- Mudança na empresa -->

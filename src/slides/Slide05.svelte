@@ -17,7 +17,7 @@
 				⚡ <span class="ml-3">Desafio Proposto</span>
 			</h3>
 			<p class="text-2xl text-white/90 text-center mb-8">
-				"Seja o primeiro QA a automatizar testes na empresa"
+				"Automatizar testes na empresa"
 			</p>
 			
 			<div class="grid grid-cols-2 gap-8">
