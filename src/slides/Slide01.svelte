@@ -4,10 +4,10 @@
 
 <div class="slide-content">
 	<h1 class="text-6xl font-bold text-white mb-8 drop-shadow-lg">
-		🚀 Sua Jornada na Tecnologia Começa Aqui
+		Dificuldades de Ingressar na Carreira
 	</h1>
 	<p class="text-2xl text-white/90 leading-relaxed drop-shadow mb-8">
-		Como transformei desafios em oportunidades na área de TI
+		Desafios reais e como superá-los na área de desenvolvimento
 	</p>
 	
 	<div class="max-w-4xl mx-auto">
@@ -23,7 +23,7 @@
 	
 	<div class="mt-8">
 		<p class="text-lg text-white/70">
-			🎯 <strong>Para vocês, futuros profissionais:</strong> Compartilhar estratégias reais e comprovadas para ingressar com sucesso na carreira de TI
+			<strong>Objetivo:</strong> Abordar obstáculos comuns no início da carreira e estratégias para superá-los
 		</p>
 	</div>
 </div>

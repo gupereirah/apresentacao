@@ -28,8 +28,8 @@
 						<li class="flex items-start">
 							<span class="text-2xl mr-4 mt-1">💭</span>
 							<div>
-								Escolhi como boa formação<br>
-								<span class="text-lg text-white/70">Sem foco direto em tecnologia</span>
+								Optei pelo técnico em tecnologia<br>
+								<span class="text-lg text-white/70">Área de curiosidade e interesse, mas sem conhecer a realidade</span>
 							</div>
 						</li>
 					</ul>
@@ -44,7 +44,7 @@
 							<span class="text-2xl mr-4 mt-1">👨‍💼</span>
 							<div>
 								<strong>Estagiário na HP</strong><br>
-								<span class="text-lg text-white/70">Depois efetivado</span>
+								<span class="text-lg text-white/70">Primeira oportunidade profissional, depois efetivado</span>
 							</div>
 						</li>
 						<li class="flex items-start">

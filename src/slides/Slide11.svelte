@@ -3,80 +3,99 @@
 </script>
 
 <div class="slide-content">
-	<h1 class="text-6xl font-bold text-white mb-8 drop-shadow-lg">
-		🎯 Dicas para Quem Está Começando
+	<h1 class="text-4xl font-bold text-white mb-4 drop-shadow-lg">
+		🎯 Dicas para Vocês (Futuros Devs em Potência!)
 	</h1>
-	<p class="text-2xl text-white/90 leading-relaxed drop-shadow mb-12">
-		Conselhos baseados na minha experiência
+	<p class="text-lg text-white/90 leading-relaxed drop-shadow mb-6">
+		O "manual de sobrevivência" para conseguir o primeiro emprego 🚀
 	</p>
 	
-	<div class="max-w-6xl mx-auto space-y-6">
-		<div class="grid grid-cols-2 gap-8">
-			<!-- Coluna 1 -->
-			<div class="space-y-6">
-				<div class="bg-gradient-to-r from-blue-500/20 to-cyan-500/20 backdrop-blur-sm rounded-2xl p-6 border border-blue-300/30">
+	<div class="max-w-6xl mx-auto space-y-4">
+		<div class="grid grid-cols-2 gap-4">
+			<!-- Antes de se formar -->
+			<div class="space-y-3">
+				<h3 class="text-2xl font-bold text-white mb-4 flex items-center">
+					📚 <span class="ml-3">Ainda na faculdade?</span>
+				</h3>
+				
+				<div class="bg-gradient-to-r from-blue-500/20 to-cyan-500/20 backdrop-blur-sm rounded-xl p-3 border border-blue-300/30">
 					<div class="flex items-start">
-						<span class="text-3xl mr-4">🎯</span>
+						<span class="text-xl mr-3">🏗️</span>
 						<div class="text-left">
-							<h3 class="text-xl font-bold text-white mb-2">Comece com o básico</h3>
-							<p class="text-white/80">HTML, CSS e JavaScript são fundamentais</p>
+							<h4 class="text-sm font-bold text-white mb-1">Monte seu "museu" no GitHub</h4>
+							<p class="text-xs text-white/80">3-5 projetos (mesmo que sejam simples!)</p>
 						</div>
 					</div>
 				</div>
 				
-				<div class="bg-gradient-to-r from-green-500/20 to-emerald-500/20 backdrop-blur-sm rounded-2xl p-6 border border-green-300/30">
+				<div class="bg-gradient-to-r from-cyan-500/20 to-teal-500/20 backdrop-blur-sm rounded-xl p-3 border border-cyan-300/30">
 					<div class="flex items-start">
-						<span class="text-3xl mr-4">🏗️</span>
+						<span class="text-xl mr-3">🤝</span>
 						<div class="text-left">
-							<h3 class="text-xl font-bold text-white mb-2">Pratique muito</h3>
-							<p class="text-white/80">Teoria sem prática não funciona</p>
+							<h4 class="text-sm font-bold text-white mb-1">Vire "influencer" (mas de dev)</h4>
+							<p class="text-xs text-white/80">LinkedIn, eventos, Discord dev</p>
 						</div>
 					</div>
 				</div>
 				
-				<div class="bg-gradient-to-r from-purple-500/20 to-pink-500/20 backdrop-blur-sm rounded-2xl p-6 border border-purple-300/30">
+				<div class="bg-gradient-to-r from-teal-500/20 to-green-500/20 backdrop-blur-sm rounded-xl p-3 border border-teal-300/30">
 					<div class="flex items-start">
-						<span class="text-3xl mr-4">🤝</span>
+						<span class="text-xl mr-3">💼</span>
 						<div class="text-left">
-							<h3 class="text-xl font-bold text-white mb-2">Peça ajuda</h3>
-							<p class="text-white/80">A comunidade dev é muito acolhedora</p>
+							<h4 class="text-sm font-bold text-white mb-1">Caçe um estágio</h4>
+							<p class="text-xs text-white/80">Experiência > Salário (por enquanto!)</p>
 						</div>
 					</div>
 				</div>
 			</div>
 			
-			<!-- Coluna 2 -->
-			<div class="space-y-6">
-				<div class="bg-gradient-to-r from-orange-500/20 to-red-500/20 backdrop-blur-sm rounded-2xl p-6 border border-orange-300/30">
+			<!-- Depois de formado -->
+			<div class="space-y-3">
+				<h3 class="text-2xl font-bold text-white mb-4 flex items-center">
+					🚀 <span class="ml-3">Já formou? E agora?</span>
+				</h3>
+				
+				<div class="bg-gradient-to-r from-orange-500/20 to-red-500/20 backdrop-blur-sm rounded-xl p-3 border border-orange-300/30">
 					<div class="flex items-start">
-						<span class="text-3xl mr-4">⏰</span>
+						<span class="text-xl mr-3">🎯</span>
 						<div class="text-left">
-							<h3 class="text-xl font-bold text-white mb-2">Seja paciente</h3>
-							<p class="text-white/80">O aprendizado leva tempo</p>
+							<h4 class="text-sm font-bold text-white mb-1">Aceite cargos "primos" de dev</h4>
+							<p class="text-xs text-white/80">Suporte, QA, Analista (todos levam ao dev!)</p>
 						</div>
 					</div>
 				</div>
 				
-				<div class="bg-gradient-to-r from-yellow-500/20 to-orange-500/20 backdrop-blur-sm rounded-2xl p-6 border border-yellow-300/30">
+				<div class="bg-gradient-to-r from-red-500/20 to-pink-500/20 backdrop-blur-sm rounded-xl p-3 border border-red-300/30">
 					<div class="flex items-start">
-						<span class="text-3xl mr-4">🚀</span>
+						<span class="text-xl mr-3">📈</span>
 						<div class="text-left">
-							<h3 class="text-xl font-bold text-white mb-2">Não pare de estudar</h3>
-							<p class="text-white/80">Tecnologia evolui constantemente</p>
+							<h4 class="text-sm font-bold text-white mb-1">Vire o "queridinho" da empresa</h4>
+							<p class="text-xs text-white/80">Crescer por dentro é mais fácil!</p>
 						</div>
 					</div>
 				</div>
 				
-				<div class="bg-gradient-to-r from-indigo-500/20 to-purple-500/20 backdrop-blur-sm rounded-2xl p-6 border border-indigo-300/30">
+				<div class="bg-gradient-to-r from-pink-500/20 to-purple-500/20 backdrop-blur-sm rounded-xl p-3 border border-pink-300/30">
 					<div class="flex items-start">
-						<span class="text-3xl mr-4">💪</span>
+						<span class="text-xl mr-3">🔄</span>
 						<div class="text-left">
-							<h3 class="text-xl font-bold text-white mb-2">Acredite em você</h3>
-							<p class="text-white/80">Se eu consegui, você também consegue!</p>
+							<h4 class="text-sm font-bold text-white mb-1">Nunca pare de estudar</h4>
+							<p class="text-xs text-white/80">Tech evolui rápido (mas não entre em pânico!)</p>
 						</div>
 					</div>
 				</div>
 			</div>
+		</div>
+		
+		<!-- Dica especial -->
+		<div class="bg-gradient-to-r from-yellow-500/20 to-orange-500/20 backdrop-blur-sm rounded-2xl p-4 border border-yellow-300/30">
+			<h3 class="text-xl font-bold text-white mb-3 text-center">
+				🏆 Dica Ultra Secreta
+			</h3>
+			<p class="text-lg text-white/90 text-center">
+				Não esperem a vaga perfeita! Eu comecei como "o cara que conserta impressora" na HP. 😂
+				<br><strong>Moral da história:</strong> qualquer porta da área de tech é uma boa porta!
+			</p>
 		</div>
 	</div>
 </div>
