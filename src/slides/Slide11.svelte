@@ -4,12 +4,9 @@
 
 <div class="slide-content">
 	<h1 class="text-4xl font-bold text-white mb-4 drop-shadow-lg">
-		🎯 Dicas para Vocês (Futuros Devs em Potência!)
+		🎯 Dicas para Quem Está Começando
 	</h1>
-	<p class="text-lg text-white/90 leading-relaxed drop-shadow mb-6">
-		O "manual de sobrevivência" para conseguir o primeiro emprego 🚀
-	</p>
-	
+
 	<div class="max-w-6xl mx-auto space-y-4">
 		<div class="grid grid-cols-2 gap-4">
 			<!-- Antes de se formar -->
@@ -22,8 +19,8 @@
 					<div class="flex items-start">
 						<span class="text-xl mr-3">🏗️</span>
 						<div class="text-left">
-							<h4 class="text-sm font-bold text-white mb-1">Monte seu "museu" no GitHub</h4>
-							<p class="text-xs text-white/80">3-5 projetos (mesmo que sejam simples!)</p>
+							<h4 class="text-sm font-bold text-white mb-1">Construa seu portfólio estratégico</h4>
+							<p class="text-xs text-white/80">3-5 projetos com README caprichado e deploy online</p>
 						</div>
 					</div>
 				</div>
@@ -90,11 +87,11 @@
 		<!-- Dica especial -->
 		<div class="bg-gradient-to-r from-yellow-500/20 to-orange-500/20 backdrop-blur-sm rounded-2xl p-4 border border-yellow-300/30">
 			<h3 class="text-xl font-bold text-white mb-3 text-center">
-				🏆 Dica Ultra Secreta
+				💡 A Dica Que Mudou Tudo Pra Mim
 			</h3>
 			<p class="text-lg text-white/90 text-center">
-				Não esperem a vaga perfeita! Eu comecei como "o cara que conserta impressora" na HP. 😂
-				<br><strong>Moral da história:</strong> qualquer porta da área de tech é uma boa porta!
+				Qualquer oportunidade na área de tech pode ser uma porta de entrada! Eu comecei como "o cara que conserta impressora" na HP. 😂
+				<br><strong>Resultado:</strong> hoje sou dev sênior. Qualquer porta é uma boa porta!
 			</p>
 		</div>
 	</div>

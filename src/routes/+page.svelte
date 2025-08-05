@@ -12,21 +12,21 @@
 	import Slide08 from '../slides/Slide08.svelte';
 	import Slide09 from '../slides/Slide09.svelte';
 	import Slide10 from '../slides/Slide10.svelte';
+
 	import Slide11 from '../slides/Slide11.svelte';
 	import Slide12 from '../slides/Slide12.svelte';
 	import Slide13 from '../slides/Slide13.svelte';
 	import Slide14 from '../slides/Slide14.svelte';
 	import Slide15 from '../slides/Slide15.svelte';
-	import Slide16 from '../slides/Slide16.svelte';
 
 	let currentStep = 1;
-	const totalSteps = 16;
+	const totalSteps = 15;
 
-	// Array com os componentes dos slides (16 slides essenciais)
+	// Array com os componentes dos slides (15 slides essenciais)
 	const slideComponents = [
 		Slide01, Slide02, Slide03, Slide04, Slide05,
 		Slide06, Slide07, Slide08, Slide09, Slide10,
-		Slide11, Slide12, Slide13, Slide14, Slide15, Slide16
+		Slide11, Slide12, Slide13, Slide14, Slide15
 	];
 	
 	// Função para avançar slide

@@ -3,78 +3,93 @@
 </script>
 
 <div class="slide-content">
-	<h1 class="text-6xl font-bold text-white mb-8 drop-shadow-lg">
-		🎯 Dicas para Quem Está Começando
+	<h1 class="text-4xl font-bold text-white mb-4 drop-shadow-lg">
+		📈 A Evolução Continua
 	</h1>
-	<p class="text-2xl text-white/90 leading-relaxed drop-shadow mb-12">
-		Conselhos baseados na minha experiência
-	</p>
 	
-	<div class="max-w-6xl mx-auto space-y-6">
-		<div class="grid grid-cols-2 gap-8">
-			<!-- Coluna 1 -->
-			<div class="space-y-6">
-				<div class="bg-gradient-to-r from-blue-500/20 to-cyan-500/20 backdrop-blur-sm rounded-2xl p-6 border border-blue-300/30">
-					<div class="flex items-start">
-						<span class="text-3xl mr-4">🎯</span>
-						<div class="text-left">
-							<h3 class="text-xl font-bold text-white mb-2">Comece com o básico</h3>
-							<p class="text-white/80">HTML, CSS e JavaScript são fundamentais</p>
-						</div>
-					</div>
+	<div class="max-w-6xl mx-auto space-y-4">
+		<!-- Marcos da evolução -->
+		<div class="bg-gradient-to-r from-blue-500/20 to-purple-500/20 backdrop-blur-sm rounded-3xl p-4 border border-blue-300/30">
+			<h3 class="text-xl font-bold text-white mb-4 flex items-center justify-center">
+				🌱 <span class="ml-3">Nossa Jornada de Crescimento</span>
+			</h3>
+			<div class="grid grid-cols-3 gap-4">
+				<div class="bg-white/10 backdrop-blur-sm rounded-xl p-3 border border-white/20 text-center">
+					<div class="text-2xl mb-2">🌱</div>
+					<h4 class="text-base font-bold text-white mb-1">Dev Júnior</h4>
+					<p class="text-xs text-white/80 mb-2">"Como isso funciona?"</p>
+					<ul class="text-xs text-white/70 space-y-1 text-left">
+						<li>• Aprendendo sintaxe</li>
+						<li>• Seguindo tutoriais</li>
+						<li>• Medo de quebrar coisas</li>
+					</ul>
 				</div>
 				
-				<div class="bg-gradient-to-r from-green-500/20 to-emerald-500/20 backdrop-blur-sm rounded-2xl p-6 border border-green-300/30">
-					<div class="flex items-start">
-						<span class="text-3xl mr-4">🏗️</span>
-						<div class="text-left">
-							<h3 class="text-xl font-bold text-white mb-2">Pratique muito</h3>
-							<p class="text-white/80">Teoria sem prática não funciona</p>
-						</div>
-					</div>
+				<div class="bg-white/10 backdrop-blur-sm rounded-xl p-3 border border-white/20 text-center">
+					<div class="text-2xl mb-2">🌿</div>
+					<h4 class="text-base font-bold text-white mb-1">Dev Pleno</h4>
+					<p class="text-xs text-white/80 mb-2">"Por que isso funciona?"</p>
+					<ul class="text-xs text-white/70 space-y-1 text-left">
+						<li>• Entendendo padrões</li>
+						<li>• Resolvendo problemas</li>
+						<li>• Começando a ensinar</li>
+					</ul>
 				</div>
 				
-				<div class="bg-gradient-to-r from-purple-500/20 to-pink-500/20 backdrop-blur-sm rounded-2xl p-6 border border-purple-300/30">
-					<div class="flex items-start">
-						<span class="text-3xl mr-4">🤝</span>
-						<div class="text-left">
-							<h3 class="text-xl font-bold text-white mb-2">Peça ajuda</h3>
-							<p class="text-white/80">A comunidade dev é muito acolhedora</p>
+				<div class="bg-white/10 backdrop-blur-sm rounded-xl p-3 border border-white/20 text-center">
+					<div class="text-2xl mb-2">🌳</div>
+					<h4 class="text-base font-bold text-white mb-1">Dev Sênior</h4>
+					<p class="text-xs text-white/80 mb-2">"Como fazer funcionar melhor?"</p>
+					<ul class="text-xs text-white/70 space-y-1 text-left">
+						<li>• Arquitetando soluções</li>
+						<li>• Mentorando outros</li>
+						<li>• Pensando no negócio</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		
+		<!-- Insights e lições em duas colunas -->
+		<div class="grid grid-cols-2 gap-6">
+			<!-- As lições mais importantes -->
+			<div class="bg-gradient-to-r from-green-500/20 to-emerald-500/20 backdrop-blur-sm rounded-3xl p-5 border border-green-300/30">
+				<h3 class="text-xl font-bold text-white mb-4 flex items-center justify-center">
+					💡 <span class="ml-2">Lições Importantes</span>
+				</h3>
+				<div class="space-y-4">
+					<div class="bg-white/10 backdrop-blur-sm rounded-xl p-4 border border-white/20">
+						<h4 class="text-base font-bold text-white mb-2 flex items-center">
+							🧠 <span class="ml-2">Soft > Hard Skills</span>
+						</h4>
+						<p class="text-sm text-white/80 text-left">
+							Comunicação e trabalho em equipe superam conhecer 20 frameworks.
+						</p>
+					</div>
+					
+					<div class="bg-white/10 backdrop-blur-sm rounded-xl p-4 border border-white/20">
+						<h4 class="text-base font-bold text-white mb-2 flex items-center">
+							🎓 <span class="ml-2">Ensinar é Aprender</span>
+						</h4>
+						<div class="text-sm text-white/80 text-left space-y-2">
+							<p><strong>Duck Debugging:</strong></p>
+							<p class="italic">"Explicar para um pato me fez achar bugs que horas de debug não acharam."</p>
 						</div>
 					</div>
 				</div>
 			</div>
 			
-			<!-- Coluna 2 -->
-			<div class="space-y-6">
-				<div class="bg-gradient-to-r from-orange-500/20 to-red-500/20 backdrop-blur-sm rounded-2xl p-6 border border-orange-300/30">
-					<div class="flex items-start">
-						<span class="text-3xl mr-4">⏰</span>
-						<div class="text-left">
-							<h3 class="text-xl font-bold text-white mb-2">Seja paciente</h3>
-							<p class="text-white/80">O aprendizado leva tempo</p>
-						</div>
-					</div>
-				</div>
-				
-				<div class="bg-gradient-to-r from-yellow-500/20 to-orange-500/20 backdrop-blur-sm rounded-2xl p-6 border border-yellow-300/30">
-					<div class="flex items-start">
-						<span class="text-3xl mr-4">🚀</span>
-						<div class="text-left">
-							<h3 class="text-xl font-bold text-white mb-2">Não pare de estudar</h3>
-							<p class="text-white/80">Tecnologia evolui constantemente</p>
-						</div>
-					</div>
-				</div>
-				
-				<div class="bg-gradient-to-r from-indigo-500/20 to-purple-500/20 backdrop-blur-sm rounded-2xl p-6 border border-indigo-300/30">
-					<div class="flex items-start">
-						<span class="text-3xl mr-4">💪</span>
-						<div class="text-left">
-							<h3 class="text-xl font-bold text-white mb-2">Acredite em você</h3>
-							<p class="text-white/80">Se eu consegui, você também consegue!</p>
-						</div>
-					</div>
+			<!-- O que permanece -->
+			<div class="bg-gradient-to-r from-purple-500/20 to-pink-500/20 backdrop-blur-sm rounded-3xl p-5 border border-purple-300/30">
+				<h3 class="text-xl font-bold text-white mb-4 text-center">
+					🎯 O Que Nunca Muda
+				</h3>
+				<div class="bg-white/10 backdrop-blur-sm rounded-xl p-4 border border-white/20">
+					<p class="text-base text-white/90 text-center leading-relaxed">
+						A curiosidade, a vontade de aprender e o receio de dar errado. 😅
+					</p>
+					<p class="text-sm text-white/80 text-center mt-3">
+						<strong>Aceite isso como parte da jornada!</strong>
+					</p>
 				</div>
 			</div>
 		</div>

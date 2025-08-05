@@ -4,10 +4,10 @@
 
 <div class="slide-content">
 	<h1 class="text-6xl font-bold text-white mb-8 drop-shadow-lg">
-		Desafios da Carreira em Dev
+		Desafios da Carreira de Desenvolvedor
 	</h1>
 	<p class="text-2xl text-white/90 leading-relaxed drop-shadow mb-8">
-		O que ninguém te conta sobre começar na área
+		Um pouco sobre a minha jornada
 	</p>
 	
 	<div class="max-w-4xl mx-auto">

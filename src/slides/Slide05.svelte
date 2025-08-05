@@ -6,10 +6,7 @@
 	<h1 class="text-6xl font-bold text-white mb-8 drop-shadow-lg">
 		🎯 Primeiro Grande Desafio
 	</h1>
-	<p class="text-2xl text-white/90 leading-relaxed drop-shadow mb-12">
-		O momento que mudou tudo: automação de testes
-	</p>
-	
+
 	<div class="max-w-6xl mx-auto space-y-8">
 		<!-- Desafio proposto -->
 		<div class="bg-gradient-to-r from-red-500/20 to-orange-500/20 backdrop-blur-sm rounded-3xl p-10 border border-red-300/30">
