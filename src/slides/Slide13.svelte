@@ -117,7 +117,7 @@
 <div class="slide-content">
 	<!-- Título animado -->
 	<div class="title-container" class:show={showTitle}>
-		<h1 class="text-5xl font-bold text-white drop-shadow-2xl">
+		<h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-white drop-shadow-2xl px-4">
 			🎉 Obrigado!
 		</h1>
 	</div>
@@ -149,6 +149,9 @@
 		width: 100%;
 		height: 80vh;
 		background: linear-gradient(135deg, #1a1a2e 0%, #16213e 30%, #0f3460 60%, #0a1930 100%);
+		min-height: 100vh;
+		justify-content: center;
+		padding: 2rem 1rem;
 	}
 	
 	.title-container {
@@ -156,7 +159,7 @@
 		transform: translateY(-30px);
 		transition: all 0.8s ease-out;
 		position: absolute;
-		top: 5rem;
+		top: 3rem;
 		left: 0;
 		right: 0;
 		z-index: 10;
@@ -171,7 +174,7 @@
 		align-items: center;
 		justify-content: center;
 		position: relative;
-		padding-top: 2rem;
+		padding: 1rem;
 	}
 	
 	.fireworks-container {
@@ -192,16 +195,16 @@
 		background: linear-gradient(145deg, rgba(0, 20, 40, 0.95), rgba(0, 40, 80, 0.9));
 		border: 2px solid rgba(100, 200, 255, 0.6);
 		border-radius: 20px;
-		padding: 40px 50px;
+		padding: 2rem 2.5rem;
 		backdrop-filter: blur(15px);
 		box-shadow: 0 0 40px rgba(100, 200, 255, 0.4);
-		max-width: 800px;
+		max-width: 90%;
 		position: relative;
 		animation: messageGlow 3s ease-in-out infinite alternate;
 	}
 	
 	.message-text {
-		font-size: 1.5rem;
+		font-size: 1.25rem;
 		color: rgba(255, 255, 255, 0.95);
 		font-weight: 500;
 		line-height: 1.6;
@@ -269,6 +272,36 @@
 		}
 		51%, 100% { 
 			opacity: 0;
+		}
+	}
+	
+	/* Responsividade */
+	@media (max-width: 768px) {
+		.title-container {
+			top: 2rem;
+		}
+		
+		.message-box {
+			padding: 1.5rem 2rem;
+			max-width: 95%;
+		}
+		
+		.message-text {
+			font-size: 1rem;
+		}
+	}
+	
+	@media (max-width: 320px) {
+		.slide-content h1 {
+			font-size: 2rem !important;
+		}
+		
+		.message-box {
+			padding: 1rem 1.5rem;
+		}
+		
+		.message-text {
+			font-size: 0.875rem;
 		}
 	}
 </style>

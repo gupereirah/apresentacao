@@ -87,8 +87,8 @@
 <div class="min-h-screen bg-gradient-to-br from-teal-700 via-blue-800 to-green-700 flex items-center justify-center relative overflow-hidden">
 	
 	<!-- Slide atual -->
-	<div class="w-full max-w-6xl mx-auto px-8 h-full flex items-center">
-		<div class="{currentStep === 13 ? 'bg-white/5 backdrop-blur-xl shadow-sm' : 'bg-white/10 backdrop-blur-lg p-8 border border-white/20 shadow-2xl'} rounded-3xl w-full h-[80vh] overflow-y-auto">
+	<div class="w-full h-full min-h-screen flex items-center">
+		<div class="{currentStep === 13 ? 'bg-white/5 backdrop-blur-xl' : 'bg-white/10 backdrop-blur-lg flex items-center justify-center'} w-full min-h-screen overflow-y-auto">
 			<!-- Renderizar o componente do slide atual -->
 			<svelte:component this={slideComponents[currentStep - 1]} isActive={true} />
 		</div>
