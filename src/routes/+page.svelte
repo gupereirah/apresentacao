@@ -88,7 +88,7 @@
 	
 	<!-- Slide atual -->
 	<div class="w-full max-w-6xl mx-auto px-8 h-full flex items-center">
-		<div class="{currentStep === 13 ? 'bg-white/5 backdrop-blur-xl shadow-sm' : 'bg-white/10 backdrop-blur-lg p-8 border border-white/20 shadow-2xl'} rounded-3xl w-full max-h-[80vh] overflow-y-auto">
+		<div class="{currentStep === 13 ? 'bg-white/5 backdrop-blur-xl shadow-sm' : 'bg-white/10 backdrop-blur-lg p-8 border border-white/20 shadow-2xl'} rounded-3xl w-full h-[80vh] overflow-y-auto">
 			<!-- Renderizar o componente do slide atual -->
 			<svelte:component this={slideComponents[currentStep - 1]} isActive={true} />
 		</div>

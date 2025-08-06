@@ -25,7 +25,7 @@
 					</div>
 				</div>
 				
-				<div class="bg-gradient-to-r from-cyan-500/20 to-teal-500/20 backdrop-blur-sm rounded-xl p-3 border border-cyan-300/30">
+				<!-- <div class="bg-gradient-to-r from-cyan-500/20 to-teal-500/20 backdrop-blur-sm rounded-xl p-3 border border-cyan-300/30">
 					<div class="flex items-start">
 						<span class="text-xl mr-3">🤝</span>
 						<div class="text-left">
@@ -33,7 +33,7 @@
 							<p class="text-xs text-white/80">LinkedIn, eventos, Discord dev</p>
 						</div>
 					</div>
-				</div>
+				</div> -->
 				
 				<div class="bg-gradient-to-r from-teal-500/20 to-green-500/20 backdrop-blur-sm rounded-xl p-3 border border-teal-300/30">
 					<div class="flex items-start">
@@ -61,7 +61,7 @@
 						</div>
 					</div>
 				</div>
-				
+<!-- 				
 				<div class="bg-gradient-to-r from-red-500/20 to-pink-500/20 backdrop-blur-sm rounded-xl p-3 border border-red-300/30">
 					<div class="flex items-start">
 						<span class="text-xl mr-3">📈</span>
@@ -70,7 +70,7 @@
 							<p class="text-xs text-white/80">Empresas investem internamente - esteja pronto!</p>
 						</div>
 					</div>
-				</div>
+				</div> -->
 				
 				<div class="bg-gradient-to-r from-pink-500/20 to-purple-500/20 backdrop-blur-sm rounded-xl p-3 border border-pink-300/30">
 					<div class="flex items-start">

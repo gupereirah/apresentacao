@@ -147,7 +147,7 @@
 		position: relative;
 		overflow: hidden;
 		width: 100%;
-		height: 72vh;
+		height: 80vh;
 		background: linear-gradient(135deg, #1a1a2e 0%, #16213e 30%, #0f3460 60%, #0a1930 100%);
 	}
 	

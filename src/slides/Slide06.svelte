@@ -28,8 +28,9 @@
 					<h4 class="text-xl font-bold text-white mb-4 flex items-center">
 						🎓 <span class="ml-2">Código do Futuro</span>
 					</h4>
-					<p class="text-lg text-white/80 mb-3">Gama Academy</p>
+					<!-- <p class="text-lg text-white/80 mb-3">Gama Academy</p> -->
 					<ul class="text-lg text-white/90 space-y-2 text-left">
+						<li>• Gama Academy</li>
 						<li>• Angular</li>
 						<li>• .NET</li>
 					</ul>
