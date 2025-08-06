@@ -203,8 +203,8 @@
 		animation: messageGlow 3s ease-in-out infinite alternate;
 	}
 	
-	.message-text {
-		font-size: 1.25rem;
+			.message-text {
+			font-size: 1.5rem;
 		color: rgba(255, 255, 255, 0.95);
 		font-weight: 500;
 		line-height: 1.6;
@@ -276,19 +276,19 @@
 	}
 	
 	/* Responsividade */
-	@media (max-width: 768px) {
-		.title-container {
-			top: 2rem;
-		}
-		
-		.message-box {
-			padding: 1.5rem 2rem;
-			max-width: 95%;
-		}
-		
-		.message-text {
-			font-size: 1rem;
-		}
+			@media (max-width: 768px) {
+			.title-container {
+				top: 2rem;
+			}
+			
+			.message-box {
+				padding: 1.5rem 2rem;
+				max-width: 95%;
+			}
+			
+			.message-text {
+				font-size: 1.25rem;
+			}
 	}
 	
 	@media (max-width: 320px) {

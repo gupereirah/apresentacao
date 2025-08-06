@@ -1,9 +1,9 @@
 <script>
-	export let isActive = false;
+	export const isActive = false;
 </script>
 
 <div class="slide-content">
-	<h1 class="text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-6 md:mb-8 drop-shadow-lg px-4">
+	<h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 md:mb-8 drop-shadow-lg px-4">
 		Desafios da Carreira de Desenvolvedor
 	</h1>
 	<p class="text-xl md:text-2xl lg:text-3xl text-white/90 leading-relaxed drop-shadow mb-8 md:mb-12 px-4">
