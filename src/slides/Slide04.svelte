@@ -64,11 +64,7 @@
 			</div>
 		</div>
 		
-		<div class="mt-8 text-center">
-			<p class="text-lg text-white/70">
-				💡 <strong>O que aprendi:</strong> Cada experiência me trouxe mais perto da programação
-			</p>
-		</div>
+		
 	</div>
 </div>
 

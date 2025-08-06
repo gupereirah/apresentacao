@@ -95,7 +95,7 @@
 	</div>
 	
 	<!-- Navegação com setas -->
-	<div class="absolute left-8 top-1/2 transform -translate-y-1/2">
+	<!-- <div class="absolute left-8 top-1/2 transform -translate-y-1/2">
 		<button 
 			on:click={prevSlide}
 			disabled={currentStep === 1}
@@ -119,10 +119,10 @@
 				<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
 			</svg>
 		</button>
-	</div>
+	</div> -->
 	
 	<!-- Indicador de progresso -->
-	<div class="absolute bottom-8 left-1/2 transform -translate-x-1/2">
+	<!-- <div class="absolute bottom-8 left-1/2 transform -translate-x-1/2">
 		<div class="flex items-center space-x-2 bg-white/10 backdrop-blur-sm rounded-full px-6 py-2 border border-white/20">
 			<div class="text-white text-sm font-medium">
 				{currentStep} / {totalSteps}
@@ -134,7 +134,7 @@
 				></div>
 			</div>
 		</div>
-	</div>
+	</div> -->
 	
 </div>
 
