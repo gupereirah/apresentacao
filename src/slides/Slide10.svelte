@@ -24,10 +24,10 @@
 				
 				<div class="bg-white/10 backdrop-blur-sm rounded-xl p-3 border border-white/20">
 					<h4 class="text-base font-bold text-white mb-2 flex items-center">
-						🏗️ <span class="ml-2">Arquitetura > Implementação</span>
+						🏗️ <span class="ml-2">Planejando mais, codando menos</span>
 					</h4>
 					<p class="text-xs text-white/80 text-left">
-						Penso mais em "como" construir do que em "o que" construir. O foco mudou para o big picture.
+						Hoje eu passo mais tempo pensando "como vamos fazer isso?" do que realmente fazendo. É bem legal!
 					</p>
 				</div>
 			</div>
@@ -54,7 +54,7 @@
 				<div class="bg-white/10 backdrop-blur-sm rounded-lg p-3 border border-white/20 text-center">
 					<div class="text-xl mb-1">🔥</div>
 					<h4 class="text-xs font-bold text-white mb-1">Apagar Incêndios</h4>
-					<p class="text-xs text-white/80">Resolver problemas complexos quando ninguém mais sabe como.</p>
+					<p class="text-xs text-white/80">Dev sênior acaba entrando bastante em demandas mais urgentes e críticas.</p>
 				</div>
 			</div>
 		</div>

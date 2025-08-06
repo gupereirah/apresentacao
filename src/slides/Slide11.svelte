@@ -20,7 +20,7 @@
 						<span class="text-xl mr-3">🏗️</span>
 						<div class="text-left">
 							<h4 class="text-sm font-bold text-white mb-1">Construa seu portfólio estratégico</h4>
-							<p class="text-xs text-white/80">3-5 projetos com README caprichado e deploy online</p>
+							<p class="text-xs text-white/80">Projetos com README caprichado e deploy online</p>
 						</div>
 					</div>
 				</div>
@@ -66,8 +66,8 @@
 					<div class="flex items-start">
 						<span class="text-xl mr-3">📈</span>
 						<div class="text-left">
-							<h4 class="text-sm font-bold text-white mb-1">Vire o "queridinho" da empresa</h4>
-							<p class="text-xs text-white/80">Crescer por dentro é mais fácil!</p>
+							<h4 class="text-sm font-bold text-white mb-1">Destaque-se internamente</h4>
+							<p class="text-xs text-white/80">Empresas investem internamente - esteja pronto!</p>
 						</div>
 					</div>
 				</div>
@@ -87,11 +87,11 @@
 		<!-- Dica especial -->
 		<div class="bg-gradient-to-r from-yellow-500/20 to-orange-500/20 backdrop-blur-sm rounded-2xl p-4 border border-yellow-300/30">
 			<h3 class="text-xl font-bold text-white mb-3 text-center">
-				💡 A Dica Que Mudou Tudo Pra Mim
+				💡 Uma Reflexão Pessoal
 			</h3>
 			<p class="text-lg text-white/90 text-center">
 				Qualquer oportunidade na área de tech pode ser uma porta de entrada! Eu comecei como "o cara que conserta impressora" na HP. 😂
-				<br><strong>Resultado:</strong> hoje sou dev sênior. Qualquer porta é uma boa porta!
+				<br>Foi assim que consegui entrar no mundo tech. Às vezes a porta não é a que esperamos!
 			</p>
 		</div>
 	</div>

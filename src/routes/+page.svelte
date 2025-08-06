@@ -16,17 +16,15 @@
 	import Slide11 from '../slides/Slide11.svelte';
 	import Slide12 from '../slides/Slide12.svelte';
 	import Slide13 from '../slides/Slide13.svelte';
-	import Slide14 from '../slides/Slide14.svelte';
-	import Slide15 from '../slides/Slide15.svelte';
 
 	let currentStep = 1;
-	const totalSteps = 15;
+	const totalSteps = 13;
 
-	// Array com os componentes dos slides (15 slides essenciais)
+	// Array com os componentes dos slides (13 slides essenciais)
 	const slideComponents = [
 		Slide01, Slide02, Slide03, Slide04, Slide05,
 		Slide06, Slide07, Slide08, Slide09, Slide10,
-		Slide11, Slide12, Slide13, Slide14, Slide15
+		Slide11, Slide12, Slide13
 	];
 	
 	// Função para avançar slide
@@ -90,7 +88,7 @@
 	
 	<!-- Slide atual -->
 	<div class="w-full max-w-6xl mx-auto px-8 h-full flex items-center">
-		<div class="bg-white/10 backdrop-blur-lg rounded-3xl p-8 shadow-2xl border border-white/20 w-full max-h-[80vh] overflow-y-auto">
+		<div class="{currentStep === 13 ? 'bg-white/5 backdrop-blur-xl shadow-sm' : 'bg-white/10 backdrop-blur-lg p-8 border border-white/20 shadow-2xl'} rounded-3xl w-full max-h-[80vh] overflow-y-auto">
 			<!-- Renderizar o componente do slide atual -->
 			<svelte:component this={slideComponents[currentStep - 1]} isActive={true} />
 		</div>
@@ -123,4 +121,41 @@
 		</button>
 	</div>
 	
+	<!-- Indicador de progresso -->
+	<div class="absolute bottom-8 left-1/2 transform -translate-x-1/2">
+		<div class="flex items-center space-x-2 bg-white/10 backdrop-blur-sm rounded-full px-6 py-2 border border-white/20">
+			<div class="text-white text-sm font-medium">
+				{currentStep} / {totalSteps}
+			</div>
+			<div class="w-32 h-2 bg-white/20 rounded-full overflow-hidden">
+				<div 
+					class="h-full bg-gradient-to-r from-teal-400 to-blue-400 rounded-full progress-bar"
+					style="width: {(currentStep / totalSteps) * 100}%"
+				></div>
+			</div>
+		</div>
+	</div>
+	
 </div>
+
+<style>
+	/* Efeito de hover nos botões de navegação */
+	button:hover {
+		transform: scale(1.1);
+		backdrop-filter: blur(10px);
+	}
+	
+	button:active {
+		transform: scale(1.05);
+	}
+	
+	/* Transição suave dos botões */
+	button {
+		transition: all 0.2s ease;
+	}
+	
+	/* Animação suave para o indicador de progresso */
+	.progress-bar {
+		transition: width 0.3s ease;
+	}
+</style>
