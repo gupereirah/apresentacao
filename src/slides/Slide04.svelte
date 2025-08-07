@@ -43,7 +43,7 @@
 						<div class="flex items-start space-x-4">
 							<span class="text-blue-400 text-2xl md:text-3xl flex-shrink-0">✅</span>
 							<div>
-								<p class="text-xl md:text-2xl lg:text-3xl font-semibold text-white mb-2">Validava entregas técnicas</p>
+								<p class="text-xl md:text-2xl lg:text-3xl font-semibold text-white mb-2">Validação de entregas técnicas</p>
 								<p class="text-lg md:text-xl lg:text-2xl text-white/70 leading-relaxed">Garantia de qualidade e conformidade com os requisitos</p>
 							</div>
 						</div>

@@ -29,7 +29,7 @@
 					<div class="flex flex-col sm:flex-row items-start">
 						<span class="text-3xl md:text-4xl lg:text-5xl mr-0 sm:mr-3 mb-2 sm:mb-0">💼</span>
 						<div class="text-left">
-							<h4 class="text-2xl md:text-3xl lg:text-4xl font-bold text-white mb-2 md:mb-3">Caçe um estágio</h4>
+							<h4 class="text-2xl md:text-3xl lg:text-4xl font-bold text-white mb-2 md:mb-3">Procure um estágio</h4>
 							<p class="text-lg md:text-xl lg:text-2xl text-white/80">Experiência > Salário (por enquanto!)</p>
 						</div>
 					</div>

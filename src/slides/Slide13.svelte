@@ -124,7 +124,7 @@
 	
 	<!-- Mensagem com efeito de digitação -->
 	<div class="typing-message-container" class:show={showTypingMessage}>
-		<div class="message-box">
+		<div class="message-box ">
 			<div class="message-text">
 				{typedText}<span class="cursor" class:blinking={isTyping}>|</span>
 			</div>
@@ -198,7 +198,7 @@
 		padding: 2rem 2.5rem;
 		backdrop-filter: blur(15px);
 		box-shadow: 0 0 40px rgba(100, 200, 255, 0.4);
-		max-width: 90%;
+	    min-width: 90%;
 		position: relative;
 		animation: messageGlow 3s ease-in-out infinite alternate;
 	}

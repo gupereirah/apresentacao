@@ -63,11 +63,9 @@
 		
 		<!-- Insight principal -->
 		<div class="bg-gradient-to-r from-yellow-500/20 to-orange-500/20 backdrop-blur-sm rounded-xl lg:rounded-2xl p-2 md:p-3 border border-yellow-300/30">
-			<h3 class="text-2xl md:text-3xl lg:text-4xl font-bold text-white mb-3 md:mb-4 flex flex-col sm:flex-row items-center justify-center">
-				🎯 <span class="ml-0 sm:ml-2 mt-2 sm:mt-0">A Verdade que Ninguém Conta</span>
-			</h3>
+			
 			<p class="text-xl md:text-2xl lg:text-3xl text-white/90 text-center leading-relaxed">
-				"Ninguém sabe tudo. Até devs sêniores googlem coisas básicas. <br>
+				"Ninguém sabe tudo. Até devs sêniores dão google em coisas básicas. <br>
 				<strong>O segredo é saber fazer as perguntas certas.</strong>"
 			</p>
 		</div>
